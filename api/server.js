@@ -68,7 +68,7 @@ const pool = mysql.createPool({
 app.get('/api/books', (req, res) => {
 
 	pool.getConnection((err, connection) => {
-		console.log(pool)
+		// console.log(pool)
 
 		if (err) {
 			console.error('Error connecting to database: ' + err.stack);

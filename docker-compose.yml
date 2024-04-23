@@ -25,6 +25,9 @@ services:
       - DB_PASSWORD=rootpassword # ${DB_PASSWORD}
     depends_on:
       - db
+    deploy:
+      # Scale testing for Docker Challenge #4
+      replicas: 8
 
   nginx:
     # build: ./nginx
