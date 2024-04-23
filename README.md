@@ -1,8 +1,8 @@
-### Docker Challenges
+# Docker Challenges
 
 ## Challenge #3
 
-# Steps Taken
+### Steps Taken
 1. Downloaded and extracted the challenge3 zip folder.
 2. Reviewed existing Dockerfiles and "nginx.conf" to understand the structure and connections.
 3. Created a Docker Compose File (docker-compose.yml) to link Nginx, Node.js, and MariaDB services.
@@ -13,7 +13,7 @@
 
 ## Challenge #4
 
-# Steps Taken
+### Steps Taken
 1. Utilized the existing setup from Challenge 3, comprising Nginx, Node.js, and MariaDB.
 2. Confirmed the operation of a single instance of node-service.
 3. Scaled node-service from one to three instances by adding deploy: replicas: 3 to the api section in services in the docker-compose.yml file
