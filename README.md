@@ -5,11 +5,12 @@
 ### Steps Taken
 1. Downloaded and extracted the challenge3 zip folder.
 2. Reviewed existing Dockerfiles and "nginx.conf" to understand the structure and connections.
-3. Created a Docker Compose File (docker-compose.yml) to link Nginx, Node.js, and MariaDB services.
-4. Addressed errors during environment setup through thorough testing and configuration adjustments.
-5. Successfully rebuilt containers using docker-compose up --build, ensuring proper functioning on port 8080.
-6. Verified the full stack functionality by accessing endpoints in the browser (localhost:8080/api/books, localhost:8080/api/books/1).
-7. Documented the process with screenshots of the terminal and result.
+3. Created a Docker Compose File (docker-compose.yml) to configure Nginx, Node.js, and MariaDB services.
+4. Created "docker-compose.sh" to build each service image based on the provided Dockerfiles, and run other docker commands.
+5. Addressed errors during environment setup through testing and configuration adjustments.
+6. Successfully rebuilt containers using "docker-compose.sh", ensuring proper functioning on port 8080.
+7. Tested the endpoints of the application: "localhost:8080/api/books" "localhost:8080/api/books/[booksID]".
+8. Documented the process though screenshots added to a PDF file attached to this repository.
 
 ## Challenge #4
 
