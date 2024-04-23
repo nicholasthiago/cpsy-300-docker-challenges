@@ -17,11 +17,11 @@
 ### Steps Taken
 1. Utilized the existing setup from Challenge 3, comprising Nginx, Node.js, and MariaDB.
 2. Confirmed the operation of a single instance of node-service.
-3. Scaled node-service from one to three instances by adding deploy: replicas: 3 to the api section in services in the docker-compose.yml file
-4. Verified scaling by observing different hostnames in responses to GET requests.
-5. Confirmed all three instances of node-service were running using docker-compose ps.
-6. Demonstrated successful load balancing by repeatedly accessing the /api/stats endpoint.
-7. Documented the process with screenshots of the terminal and result.
+3. Scaled node-service from one to three instances by adding "deploy: replicas: N" to the api section in services in the docker-compose.yml file
+4. Checked scaling impacts by observing GET requests' logs on the console.
+5. Used "docker-compose ps" to verify each service running.
+6. The sucessful load balancing was observed by repeating the use of the endpoint "/api/stats".
+7. Documented the process though screenshots added to a PDF file attached to this repository.
 
 ## Conclusion
-These challenges provided invaluable learning experiences, enhancing understanding of Docker and its practical applications. The hands-on approach facilitated a deeper comprehension of containerization concepts and their implementation.
+These challenges really helped me learn a lot about Docker and how to use it in real-life situations. By actually doing things myself, I got a much better grasp of what containerization is all about and how to make it work.
